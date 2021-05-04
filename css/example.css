@@ -5,7 +5,6 @@ header {
   border: solid #0f0f10;
   border-radius: 15px;
   box-shadow: 10px 12px #2a76b6;
-
 }
 
 h1 {
@@ -13,7 +12,6 @@ h1 {
   font-style: oblique;
   margin-top: -90px;
   margin-left: 150px;
-
 }
 
 h2 {
@@ -88,6 +86,28 @@ aside{
   text-align: center;
 
 }
+#Carreras{
+  border-radius: 10px;
+  display:block;
+  padding: 5px 10px;
+  margin:10px auto;
+  min-width: 225px;
+  -webkit-appearance: none;
+  height: 34px;
+  text-align: center;
+}
+
+#Año{
+  border-radius: 10px;
+  display:block;
+  padding: 5px 10px;
+  margin:10px auto;
+  min-width: 225px;
+  -webkit-appearance: none;
+  height: 34px;
+
+
+}
 aside h3{
 
 }
@@ -126,4 +146,5 @@ footer .twitter {
   bottom:  00px;
   left: 800px;
 }
+
 
