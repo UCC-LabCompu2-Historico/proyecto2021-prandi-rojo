@@ -1,0 +1,129 @@
+header {
+  height: 150px;
+  width: 1875px;
+  background-color: #2a76b6;
+  border: solid #0f0f10;
+  border-radius: 15px;
+  box-shadow: 10px 12px #2a76b6;
+
+}
+
+h1 {
+  font-size: 80px;
+  font-style: oblique;
+  margin-top: -90px;
+  margin-left: 150px;
+
+}
+
+h2 {
+  font-size: 30px;
+  font-style: oblique;
+  float: right;
+  margin-top: -60px;
+
+}
+
+h4 {
+  font-size: 19px;
+  font-style: normal;
+  float: left;
+  margin-top: -56px;
+  margin-left: 40px;
+
+
+}
+
+div p{
+    font-family: "Copperplate Gothic Bold";
+    font-size: 20px;
+    font-style: italic;
+    padding-inline: 50px;
+
+}
+
+p {
+    font-style: italic;
+    font-size: 20px;
+  float: left;
+
+}
+body{
+  background: linear-gradient(to right, #dae9f6, #b2cdf8);
+}
+
+table caption{
+  position: absolute;
+  left: 100px;
+  top: 250px;
+
+}
+table thead {
+  position: absolute;
+  left: 100px;
+  top: 360px;
+}
+table tbody{
+  position: absolute;
+  left: 100px;
+  top: 400px;
+
+}
+
+figure{
+  position: absolute;
+  left: 800px;
+}
+
+aside{
+  float: right;
+  margin-left: 5px;
+  margin-right: 100px;
+  margin-bottom:100 px;
+  margin-top: 150px;
+  font-family: "Arial Rounded MT Bold";
+  border: solid #0f0f10;
+  height: 330px;
+  width: 250px;
+  text-align: center;
+
+}
+aside h3{
+
+}
+
+footer{
+  height: 150px;
+  width: 1875px;
+  position: absolute;
+  bottom: -60px;
+  background-color: #2a76b6;
+  border: solid #0f0f10;
+  border-radius: 15px;
+  box-shadow: 10px 12px #2a76b6;
+}
+
+footer h4{
+  font-style: italic;
+  position: absolute;
+  left: -20px;
+  bottom: 90px
+}
+footer .whatsapp {
+  position: absolute;
+  bottom:  00px;
+  left: 150px;
+}
+footer .gmail {
+  position: absolute;
+  bottom:  00px;
+  right: 200px;
+
+}
+
+footer .twitter {
+  position: absolute;
+  bottom:  00px;
+  left: 800px;
+}
+

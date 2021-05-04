@@ -1,144 +1,130 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Página de inicio"/>
+  <meta name="keywords" content="Carreras, Ingeniería, Sistemas, Electrónica, Computación, Año"/>
+  <meta name="author" content="Nicolás Rojo y Nicolás Prandi" />
   <title>Campus Virtual</title>
+  <style>
+    table, tr, td, th{
+      border: 1px solid #000000;
+    }
+  </style>
+  <link rel="stylesheet" href="css/example.css" type="text/css">
+  <link rel="shortcut icon" href="imagenes generales/logo.png">
 </head>
 
-<body>
 
 <header>
-
-
-  <img src="foto de encabezado.png" height="96,8" width="164"/>
+  <img src="imagenes generales/foto de encabezado.png" height="96,8" width="164"/>
   <h1> UNN </h1>
   <h4>Universidad Nacional de los Nicos</h4>
   <h2>CAMPUS VIRTUAL</h2>
 
 </header>
-
+<body>
 <section>
-<ul>
-  <li>En esta pagina web usted podra encontrar la siguiente informacion:</li>
-
-</ul>
 
   <table>
+  <caption> En esta página web usted dispondrá de la siguiente información:</caption>
+    <thead>
+    <th> CARRERAS </th>
+    <th colspan="2"> AÑO </th>
+    </thead>
+
+    <tbody>
     <tr>
-            <th>  CARRERAS </th>
-
-    </tr>
-    <tr>
-
-      <th>Ing en Computacion</th>
-      <td> Primer y segundo año </td>
-      <td> Todos los semestres </td>
-    </tr>
-
-    <tr>
-
-      <th>Ing Electronica</th>
-      <td> Primer y segundo año </td>
-      <td>Todos los semestres</td>
+      <td> Ingeniería en Computación</td>
+      <td rowspan="3"> Primer  año </td>
+      <td> Segundo Año</td>
     </tr>
 
     <tr>
+      <td> Ingeniería en Sistemas</td>>
 
-      <th>Ing en sistema</th>
-      <td> Primer y segundo año </td>
-      <td>Todos los semestres</td>
+      <td> Segundo Año</td>
     </tr>
 
+    <tr>
+      <td> Ingeniería Electrónica</td>
+
+      <td> Segundo Año</td>
+    </tr>
+
+    </tbody>
 
     </table>
 
-  <img src="foto inicio.png" height="512" width="512"/>
-
 </section>
 
+<figure>
+  <img src="imagenes generales/foto inicio.png" height="512" width="512"/>
+</figure>
+
+
+
+
+
 <aside>
-
+<p>
   <h3>Ingrese sus datos</h3>
+  </p>
 
-<input type="text" name="" placeholder="Nombre">
+<p>
+  <label for="nombre"> Nombre: </label> <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+</p>
 
 
-   <br>  <!-- esto hace el salto de linea -->
-
-
-  <select name="carreras">
-    <option value="Ing_c">Ingenieria en computacion</option>
+  <p>
+    <label for="Carreras">CARRERAS</label>:
+    <select id="Carreras">
+    <option value="Ing_c" >Ingenieria en computacion</option>
     <option value="Ing_e">Ingenieria electronica</option>
     <option value="Ing_s">Ingenieria en sistemas</option>
+    </select>
+  </p>
 
-  </select>
 
 
-<br>
-
-  <select name="años">
+  <p>
+    <label for="Año">AÑO</label>:
+    <select id="Año">
     <option value="A1">Primer Año</option>
     <option value="A2">Segundo Año</option>
-
   </select>
-<br>
+  </p>
 
-
-
-
-<br>
-  <br>
-
-  <button type="button">Enter</button>
-
-
+<p> <button type="button">Enter</button></p>
 
 </aside>
 
 
 <footer>
-
-
   <h4>Para mas informacion podes contactarte  con el sector secretaria por los siguientes medios</h4>
 
-
-  <div class="whatsapp">
+  <div class="whatsapp", id="Whatsapp">
     <img src="img/wp.png" height="45" width="45"/>
        <p> 351-6389786</p>
   </div>
 
-<div class="twitter">
-
-
-  <img src="img/twitter.png" height="45" width="45"/>
-
-  <p> UNNCBA</p>
-</div>
-
-
-
-  <div class="gmail">
-
-
-    <img src="img/gmail.png" height="45" width="45"/>
-    <p> SecretariaUnn@gmail.com</p>
-
+  <div class="twitter">
+    <img src="img/twitter.png" height="45" width="45"/>
+    <p> UNNCBA</p>
   </div>
 
-
-
-
+  <div class="gmail">
+    <img src="img/gmail.png" height="45" width="45"/>
+    <p> SecretariaUnn@gmail.com</p>
+  </div>
 
 </footer>
 
 
-
-
 </body>
-
 
 
 
