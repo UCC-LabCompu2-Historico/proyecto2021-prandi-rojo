@@ -1,0 +1,71 @@
+header {
+  height: 150px;
+  width: 1900px;
+  background-color: #2a76b6;
+  border: solid #0f0f10;
+  border-radius: 15px;
+  box-shadow: 10px 12px #2a76b6;
+}
+
+h1 {
+  font-size: 80px;
+  font-style: oblique;
+  margin-top: -90px;
+  margin-left: 150px;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: oblique;
+  float: right;
+  margin-top: -60px;
+
+}
+
+h4 {
+  font-size: 19px;
+  font-style: normal;
+  float: left;
+  margin-top: -56px;
+  margin-left: 40px;
+
+
+}
+body{
+  background: linear-gradient(to right, #dae9f6, #b2cdf8);
+}
+
+footer{
+  height: 100px;
+  width: 1900px;
+  position: absolute;
+  bottom: 0px;
+  background-color: #2a76b6;
+  border: solid #0f0f10;
+  border-radius: 15px;
+  box-shadow: 10px 12px #2a76b6;
+}
+
+footer h4{
+  font-style: italic;
+  position: absolute;
+  left: -20px;
+  bottom: 50px
+}
+footer .whatsapp {
+  position: absolute;
+  bottom:  00px;
+  left: 150px;
+}
+footer .gmail {
+  position: absolute;
+  bottom:  00px;
+  right: 200px;
+
+}
+
+footer .twitter {
+  position: absolute;
+  bottom:  00px;
+  left: 800px;
+}
