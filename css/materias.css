@@ -43,6 +43,49 @@ figure{
   right: 0px;
 }
 
+.foto{
+  float: right;
+
+}
+
+.objetivos{
+  float: left;
+  margin-top: 30px;
+  font-style: oblique;
+}
+
+.obj{
+  float: left;
+  margin-top: 60px;
+}
+
+.evaluacion{
+  float: left;
+  margin-top: 300px;
+  font-style: oblique;
+}
+.eval{
+  float: left;
+  margin-bottom: 10 ;
+
+}
+
+.teorico{
+  float left;
+  margin-bottom: 0px;
+  font-style: oblique;
+
+
+}
+.teor{
+  float: left;
+  margin-bottom: -10px;
+
+
+}
+
+
+
 
 
 footer{

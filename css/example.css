@@ -142,15 +142,24 @@ footer h4{
 }
 footer .whatsapp {
   position: absolute;
-  bottom:  00px;
+  bottom:  -5px;
   left: 150px;
 
-
+}
+.whatsapp img{
+  position: absolute;
+  left: -10px;
 }
 footer .gmail {
   position: absolute;
   bottom:  00px;
   right: 200px;
+}
+.gmail img{
+  position: absolute;
+  right: 290px;
+  bottom: 15px;
+
 }
 
 footer .twitter {
@@ -158,3 +167,9 @@ footer .twitter {
   bottom:  00px;
   left: 800px;
 }
+.twitter img{
+  position: absolute;
+  right: 150px;
+
+}
+
