@@ -36,46 +36,14 @@ body{
 
 }
 
-aside{
-  float: right;
-  position: relative;
-  bottom: 450px;
-  right: 150px;
-  text-align: center;
-}
-
-.Bs-ds{
-  position: relative;
-  left: 1220px;
-
-}
-#I{
-  position: relative;
-  bottom: 60px;
-}
-
- .anuales{
-   left: 60px;
-
-}
-
-
- .semestre1{
-   left: 60px;
-
-}
-
-
- .semestre2{
-   left: 60px;
-   bottom: 200px;
-}
 figure{
   float: right;
   position: absolute;
   bottom: 100px;
   right: 0px;
 }
+
+
 
 footer{
   height: 100px;

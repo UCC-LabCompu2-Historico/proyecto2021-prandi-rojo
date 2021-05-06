@@ -5,6 +5,9 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Página de inicio"/>
+  <meta name="keywords" content="Carreras, Ingeniería, Sistemas, Electrónica, Computación, Año"/>
+  <meta name="author" content="Nicolás Rojo y Nicolás Prandi" />
   <title>IC Primer Año</title>
   <link rel="stylesheet" href="../css/paginas.css" type="text/css">
   <link rel="shortcut icon" href="../imagenes generales/logo.png">
@@ -19,37 +22,51 @@
   <h2>CAMPUS VIRTUAL</h2>
 </header>
 <section>
-<h5>¡Buenos días "nombre"! Aquí está la información de Ingeniería en Computacion de Primer Año</h5>
-  <h3>Ingeniería en Computación</h3>
+  <div class="Bs-ds"> <h5>¡Buenos días "nombre"! Aquí está la información de Ingeniería en Computacion de Primer Año</h5> </div>
+
+  <h3 id="I">Ingeniería en Computación</h3>
 
   <h4> Materias de Primer Año:</h4>
   <ul>
-    <h3>Anuales</h3>
-    <li><a href="../Materias/AM1/AM1.html">Analisis 1</a></li>
-    <li><a href="../Materias/Algebra/Algebra.html">Algebra</a></li>
-    <li><a href="../Materias/Filosofia/Filosofia.html">Filosofia</a></li>
-    <li><a href="../Materias/FisicaI/Fisica1.html">Fisica 1</a></li>
-    <br>
-    <h3>Semestre 1</h3>
+    <div class="anuales">
+      <h3><u>Anuales</u></h3>
+      <li><a href="../Materias/AM1/AM1.html">Analisis 1</a></li>
+      <li><a href="../Materias/Algebra/Algebra.html">Algebra</a></li>
+      <li><a href="../Materias/Filosofia/Filosofia.html">Filosofia</a></li>
+      <li><a href="../Materias/FisicaI/Fisica1.html">Fisica 1</a></li>
+    </div>
+
+    <div class="semestre1">
+      <h3><u>Semestre 1</u></h3>
     <li><a href="../Materias/LM/LM.html">Logica Matematica</a></li>
     <li><a href="../Materias/FP/FP.html">Fundamentos de la Programacion</a></li>
     <li><a href="../Materias/II/II.html">Introduccion a la Ingenieria</a></li>
-    <br>
-    <h3>Semestre 2</h3>
-    <li><a href="../Materias/LC1/LC1.html">Laboratorio de la computacion 1</a></li>
-    <li><a href="../Materias/P1/P1.html">Programacion 1</a></li>
-    <li><a href="../Materias/SR/SR.html">Sistemas de representacion</a></li>
+    </div>
+
+    <div class="semestre2">
+      <h3><u>Semestre 2</u></h3>
+      <li><a href="../Materias/LC1/LC1.html">Laboratorio de la computacion 1</a></li>
+      <li><a href="../Materias/P1/P1.html">Programacion 1</a></li>
+      <li><a href="../Materias/SR/SR.html">Sistemas de representacion</a></li>
+    </div>
+
   </ul>
 
 </section>
 
-<aside>
-  <label for="start">Start date:</label>
 
+<aside>
+  <label for="start">CALENDARIO</label>
+  <br>
   <input type="date" id="start" name="trip-start"
-         value="2018-07-22"
-         min="2018-01-01" max="2018-12-31">
+         value="2021-05-12"
+         min="2021-01-01" max="2021-12-31">
 </aside>
+
+<figure>
+  <img src="../imagenes generales/Fotodwncalendar.png" height="152" width="380"/>
+</figure>
+
 
 <footer>
 
