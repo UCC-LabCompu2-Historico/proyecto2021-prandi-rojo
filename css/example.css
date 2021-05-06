@@ -19,7 +19,6 @@ h2 {
   font-style: oblique;
   float: right;
   margin-top: -60px;
-
 }
 
 h4 {
@@ -28,14 +27,10 @@ h4 {
   float: left;
   margin-top: -56px;
   margin-left: 40px;
-
-
 }
 
 #textosup {
   margin-top: 60px;
-
-
 }
 
 div p{
@@ -43,7 +38,6 @@ div p{
     font-size: 20px;
     font-style: italic;
     padding-inline: 50px;
-
 }
 
 p {
@@ -53,7 +47,7 @@ p {
 
 }
 body{
-  background: linear-gradient(to right, #dae9f6, #b2cdf8);
+  background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
 }
 
 table {
@@ -63,12 +57,10 @@ table {
   text-align: left;
   width: 40%;
   height: 30%;
-
 }
 
 table thead{
   text-align: center;
-
 }
 table tbody {
   text-align: center;
@@ -91,9 +83,8 @@ aside{
   border: solid #0f0f10;
   height: 400px;
   width: 350px;
-
-
 }
+
 #Carreras{
   border-radius: 10px;
   display:block;
@@ -112,8 +103,6 @@ aside{
   min-width: 225px;
   -webkit-appearance: none;
   height: 34px;
-
-
 }
 #nombre{
   border-radius: 10px;
@@ -123,8 +112,6 @@ aside{
   min-width: 100px;
   -webkit-appearance: none;
   height: 19px;
-
-
 }
 aside button{
   border-radius: 10px;
@@ -134,7 +121,6 @@ aside button{
   min-width: 75px;
   -webkit-appearance: none;
   height: 34px;
-
 }
 
 footer{
@@ -158,12 +144,13 @@ footer .whatsapp {
   position: absolute;
   bottom:  00px;
   left: 150px;
+
+
 }
 footer .gmail {
   position: absolute;
   bottom:  00px;
   right: 200px;
-
 }
 
 footer .twitter {
@@ -171,5 +158,3 @@ footer .twitter {
   bottom:  00px;
   left: 800px;
 }
-
-
