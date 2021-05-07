@@ -67,9 +67,11 @@ body{
   width: 40%;
   margin-top: -230px;
   right: 60px;
-
+  text-align: center;
 }
-
+iframe{
+  margin: 15px;
+}
 
 .unidad{
   float: left;

@@ -46,9 +46,9 @@ aside{
 
 .Bs-ds{
   position: relative;
-  left: 1220px;
-
+  text-align: right;
 }
+
 #I{
   position: relative;
   bottom: 60px;
