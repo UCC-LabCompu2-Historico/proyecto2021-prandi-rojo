@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "Customfont";
+  src: url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+  src: url("https://fonts.googleapis.com/css2?family=Rock+Salt&family=Satisfy&display=swap");
+}
+
 header {
   height: 150px;
-  width: 1900px;
+  width: 100%;
   background-color: #2a76b6;
   border: solid #0f0f10;
   border-radius: 15px;
@@ -9,7 +15,8 @@ header {
 
 h1 {
   font-size: 80px;
-  font-style: oblique;
+  font-style: oblique ;
+  font-family: "Monotype Corsiva";
   margin-top: -90px;
   margin-left: 150px;
 }
@@ -17,6 +24,7 @@ h1 {
 h2 {
   font-size: 30px;
   font-style: oblique;
+  font-family: "Arial Narrow";
   float: right;
   margin-top: -60px;
   margin-left: 10px;
@@ -49,6 +57,8 @@ p {
 }
 body{
   background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
+  overflow-y: hidden;
+  overflow-x: hidden ;
 }
 
 table {
@@ -58,6 +68,7 @@ table {
   text-align: left;
   width: 40%;
   height: 30%;
+  font-family: Customfont, Satisfy, cursive;
 }
 
 table thead{
@@ -75,6 +86,11 @@ table, tr, td, th{
 figure{
   position: absolute;
   left: 900px;
+}
+#textimg{
+  font-family: "Monotype Corsiva";
+  font-size: 30px;
+  text-align: center;
 }
 
 aside{
@@ -128,7 +144,7 @@ aside button{
 
 footer{
   height: 100px;
-  width: 1900px;
+  width: 100%;
   position: absolute;
   bottom: 0px;
   background-color: #2a76b6;

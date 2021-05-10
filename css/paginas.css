@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Customfont";
+  src: url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+  src: url("https://fonts.googleapis.com/css2?family=Rock+Salt&family=Satisfy&display=swap");
+}
+
+
+
 header {
   height: 150px;
   width: 1900px;
@@ -10,6 +18,7 @@ header {
 h1 {
   font-size: 80px;
   font-style: oblique;
+  font-family: "Monotype Corsiva";
   margin-top: -90px;
   margin-left: 150px;
 }
@@ -17,6 +26,7 @@ h1 {
 h2 {
   font-size: 30px;
   font-style: oblique;
+  font-family: "Arial Narrow";
   float: right;
   margin-top: -60px;
 
@@ -33,6 +43,8 @@ h4 {
 }
 body{
   background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
+  overflow-y: hidden;
+  overflow-x: hidden ;
 }
 
 aside{
@@ -51,6 +63,8 @@ aside{
 #I{
   position: relative;
   bottom: 60px;
+  font-family: "Monotype Corsiva";
+  font-size: 40px;
 }
 
  .anuales{
