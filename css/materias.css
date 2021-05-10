@@ -24,16 +24,22 @@ h2 {
 
 h4 {
   font-size: 19px;
-  font-style: normal;
+  font-style: inherit;
   float: left;
   margin-top: -56px;
   margin-left: 40px;
 
-
 }
-body{
-  background: linear-gradient(to right, #dee6ef, #c9d9f8);
 
+#nombremateria{
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  font-style: oblique;
+}
+
+body{
+  background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
 }
 
 figure{
@@ -50,31 +56,31 @@ figure{
 
 .objetivos{
   float: left;
-  margin-top: -10px;
+  position: relative;
+  top: 80px;
   font-style: oblique;
 }
 
 .obj{
   position: relative;
-  margin-top: 80px;
+  top: 70px;
   width: 70%;
+  left: 45px;
 }
 
 .evaluacion{
-  float: left;
-  margin-top: 0px;
+  margin-top: 55px;
   font-style: oblique;
 }
 .eval{
-  position: relative;
-  margin-bottom: 10px ;
-  width: 50%;
+  margin-top: 90px ;
+  margin-left: 40px;
+  width: 60%;
 }
 
 .teorico{
   float: left;
   margin-top: 80px;
-  margin-left: 30px;
   font-style: oblique;
 }
 .teor{
@@ -84,8 +90,15 @@ figure{
 }
 
 
-
-
+#promocion{
+  position: relative;
+  top:60px;
+}
+#prom{
+  position: relative;
+  top: 30px;
+  margin-left: 25px;
+}
 
 footer{
   height: 100px;

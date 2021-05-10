@@ -24,7 +24,7 @@ h2 {
 
 h4 {
   font-size: 19px;
-  font-style: normal;
+  font-style: inherit;
   float: left;
   margin-top: -56px;
   margin-left: 40px;
@@ -32,8 +32,7 @@ h4 {
 
 }
 body{
-  background: linear-gradient(to right, #dee6ef, #c9d9f8);
-
+  background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
 }
 
 aside{

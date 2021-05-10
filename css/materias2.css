@@ -24,16 +24,20 @@ h2 {
 
 h4 {
   font-size: 19px;
-  font-style: normal;
+  font-style: inherit;
   float: left;
   margin-top: -56px;
   margin-left: 40px;
 
-
+}
+#nombremateria{
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  font-style: oblique;
 }
 body{
-  background: linear-gradient(to right, #dee6ef, #c9d9f8);
-
+  background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
 }
 
 
@@ -76,14 +80,14 @@ iframe{
 .unidad{
   float: left;
   margin-left: 20px;
-  margin-top: -40;
+  margin-top: -40px;
   font-style: oblique;
 }
 
 .uni{
   position: relative;
   margin-top: 70px;
-  margin-left: 100px;
+  margin-left: 40px;
 }
 
 .condicion{
@@ -137,7 +141,44 @@ iframe{
   width: 70%;
   margin-left: 50px;
 }
+.foto{
+  float: right;
+}
 
+#nombre {
+  position: relative;
+  top: 85px;
+  right: 35px;
+  font-style: italic;
+}
+#ejesquimica{
+  float: left;
+  margin-top: 25px;
+}
+
+.ejes{
+  margin-top: 45px;
+  margin-left: 25px;
+  font-style: oblique;
+}
+
+.secquimica{
+  margin-left: 15px;
+}
+
+#metquimica{
+  width: 70%;
+}
+#fotoquimica{
+  float: right;
+  position: relative;
+  bottom: 90px;
+}
+#p3{
+  float: left;
+  position: relative;
+  top:95px
+}
 footer{
   height: 100px;
   width: 1900px;
