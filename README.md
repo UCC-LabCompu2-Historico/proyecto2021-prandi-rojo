@@ -4,7 +4,7 @@
 <p>En la página podrás encontrar toda la información sufuciente y necesaria para poder conocer un poco mas acerca de las materias y de sus contenidos.</p>
 <p>También tenemos un sector de ingreso, para usuarios que ya estén inscriptos en la facultad.</p>  
 
-##Autores: 
+## Autores: 
 * Nicolás Agustín **Rojo**  :slightly_smiling_face:
 * Nicolás Agustín **Prandi**  :slightly_smiling_face:
 
@@ -14,7 +14,7 @@
 |2000262@ucc.edu.ar|Nicolás Rojo|
 |2013091@ucc.edu.ar|Nicolás Prandi|
 
-##Tecnologías usadas:
+## Tecnologías usadas:
 * HTML5
 * CSS3
 
