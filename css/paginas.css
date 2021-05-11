@@ -90,6 +90,17 @@ figure{
   right: 0px;
 }
 
+#fotocenter {
+  position: absolute;
+  right: 400px;
+
+}
+#textimg{
+  text-align: center;
+  font-family: "Monotype Corsiva";
+  font-size: 30px;
+}
+
 footer{
   height: 100px;
   width: 1900px;
