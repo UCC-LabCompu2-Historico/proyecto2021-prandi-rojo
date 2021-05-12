@@ -8,7 +8,7 @@
 * Nicolás Agustín **Rojo**  :slightly_smiling_face:
 * Nicolás Agustín **Prandi**  :slightly_smiling_face:
 
-##Contacto:
+## Contacto:
 |Email Institucional|Autores|
 |---------|---------|
 |2000262@ucc.edu.ar|Nicolás Rojo|
