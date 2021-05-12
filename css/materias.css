@@ -1,17 +1,20 @@
 header {
   height: 150px;
-  width: 1900px;
+  width: 100%;
   background-color: #2a76b6;
   border: solid #0f0f10;
   border-radius: 15px;
   box-shadow: 10px 12px #2a76b6;
 }
-
+#fotoheader{
+  margin-top: 15px;
+  margin-left: 0px;
+}
 h1 {
-  font-size: 80px;
-  font-style: oblique;
+  font-size: 90px;
+  font-style: oblique ;
   font-family: "Monotype Corsiva";
-  margin-top: -90px;
+  margin-top: -110px;
   margin-left: 150px;
 }
 
@@ -20,23 +23,26 @@ h2 {
   font-style: oblique;
   font-family: "Arial Narrow";
   float: right;
-  margin-top: -60px;
-
+  margin-top: -90px;
+  margin-left: 10px;
 }
 
 h4 {
   font-size: 19px;
   font-style: inherit;
   float: left;
-  margin-top: -56px;
-  margin-left: 40px;
+  margin-top: -65px;
+  margin-left: 65px;
+}
 
+#textosup {
+  margin-top: 40px;
 }
 
 #nombremateria{
   text-align: center;
   position: relative;
-  bottom: 30px;
+  bottom: 70px;
   font-family: "Bodoni MT";
   font-style: oblique;
 }
@@ -67,18 +73,19 @@ figure{
 }
 
 .obj{
-  position: relative;
-  top: 70px;
+  position: absolute;
+  text-align: left;
+  top: 230px;
   width: 70%;
   left: 45px;
 }
 
 .evaluacion{
-  margin-top: 55px;
+  margin-top: 190px;
   font-style: oblique;
 }
 .eval{
-  margin-top: 90px ;
+  margin-top: 240px ;
   margin-left: 40px;
   width: 60%;
 }
