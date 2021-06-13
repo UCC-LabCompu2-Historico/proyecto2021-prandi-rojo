@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
@@ -10,6 +10,7 @@
   <meta name="author" content="Nicolás Rojo y Nicolás Prandi"/>
   <title>Campus Virtual</title>
   <link rel="stylesheet" href="css/example.css" type="text/css">
+  <script type="text/javascript" src="js/main.js"></script>
   <link rel="shortcut icon" href="imagenes generales/logo.png">
 </head>
 
@@ -69,27 +70,29 @@
   <h3>Ingrese sus datos</h3>
 
   <div>
-
+  <form name="listdesp" >
     <label for="nombre"> NOMBRE: </label> <input type="text" name="nombre" placeholder="Nombre" id="nombre">
 
 
     <label for="Carreras">CARRERAS</label>:
-    <select id="Carreras">
-      <option value="Ing_c">Ingenieria en Computación</option>
-      <option value="Ing_e">Ingenieria Electrónica</option>
-      <option value="Ing_s">Ingenieria en Sistemas</option>
+    <select name="Carreras" id="Carreras" >
+      <option disabled hidden selected> Seleccione una carrera</option>
+      <option value="1">Ingenieria en Computación</option>
+      <option value="2">Ingenieria Electrónica</option>
+      <option value="3">Ingenieria en Sistemas</option>
     </select>
 
 
-    <label for="Año">AÑO</label>:
-    <select id="Año">
-      <option value="A1">Primer Año</option>
-      <option value="A2">Segundo Año</option>
+    <label for="Año">AÑO</label>
+    <select name="Año" id="Año">
+      <option disabled hidden selected> Seleccione el año</option>
+      <option value="1">Primer Año</option>
+      <option value="2">Segundo Año</option>
     </select>
 
 
-    <button type="button">Enter</button>
-
+    <button type="button" onclick="miFunc()" >Enter</button>
+  </form>
   </div>
 </aside>
 
