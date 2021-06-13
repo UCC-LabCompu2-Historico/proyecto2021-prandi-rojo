@@ -70,13 +70,12 @@
   <h3>Ingrese sus datos</h3>
 
   <div>
-  <form name="listdesp" >
     <label for="nombre"> NOMBRE: </label> <input type="text" name="nombre" placeholder="Nombre" id="nombre">
 
 
     <label for="Carreras">CARRERAS</label>:
     <select name="Carreras" id="Carreras" >
-      <option disabled hidden selected> Seleccione una carrera</option>
+      <option disabled hidden selected value="0"> Seleccione una carrera</option>
       <option value="1">Ingenieria en Computación</option>
       <option value="2">Ingenieria Electrónica</option>
       <option value="3">Ingenieria en Sistemas</option>
@@ -85,14 +84,13 @@
 
     <label for="Año">AÑO</label>
     <select name="Año" id="Año">
-      <option disabled hidden selected> Seleccione el año</option>
+      <option disabled hidden selected value="0"> Seleccione el año</option>
       <option value="1">Primer Año</option>
       <option value="2">Segundo Año</option>
     </select>
 
 
     <button type="button" onclick="miFunc()" >Enter</button>
-  </form>
   </div>
 </aside>
 
