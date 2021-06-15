@@ -112,12 +112,22 @@ figure{
   margin-left: 25px;
 }
 
+
+#coordenadas{
+  float: right;
+  position: absolute;
+  right: 170px;
+  bottom: 300px;
+
+}
+
 #myCanvas{
   float: right;
   position: absolute;
   right: 220px;
   top: 200px;
   border: solid #0f0f10;
+  background-color: white;
 }
 
 footer{

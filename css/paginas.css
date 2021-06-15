@@ -61,9 +61,10 @@ aside{
   text-align: center;
 }
 
-.Bs-ds{
+#texto{
   position: relative;
   float: right;
+  font-family: "Book Antiqua";
 }
 
 #I{

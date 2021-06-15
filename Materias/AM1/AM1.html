@@ -13,7 +13,7 @@
   <script type="text/javascript" src="../../js/main.js"></script>
   <link rel="shortcut icon" href="../../imagenes generales/logo.png">
 </head>
-<body>
+<body onload="cargarcanvas()">
 <header>
 
 
@@ -60,6 +60,10 @@
 
   <canvas id="myCanvas"   width="500" height="400"></canvas>
 
+  <div id="coordenadas">
+  <label for="x"> Coordenada X: </label> <input type="text" name="x"  id="x" >
+  <label for="y"> Coordenada Y: </label> <input type="text" name="y"  id="y" >
+  </div>
 
 </section>
 <figure>
