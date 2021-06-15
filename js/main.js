@@ -141,7 +141,12 @@ function cargarcanvas(){
         x++;
 }}
 
-
+/**
+ * Se encarga de generar el canvas la grafica del tipo y=ax+b.
+ * @method funcanva.
+ * No recibe parametros
+ * No retorna valores.
+ */
 
 function funcanva(){
 
@@ -175,6 +180,12 @@ function funcanva(){
     ctx.stroke();
     ctx.closePath();
 }
+/**
+ * Se encarga de limpiar la grafica ingresada por el usuario.
+ * @method funlimpiar.
+ * No recibe parametros.
+ * No retorna valores.
+ */
 
 function funlimpiar() {
     let canvas = document.getElementById("myCanvas");
