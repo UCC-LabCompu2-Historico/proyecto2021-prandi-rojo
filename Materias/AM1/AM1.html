@@ -17,8 +17,8 @@
 <header>
 
 
-  <img id="fotoheader" src="../../imagenes generales/foto de encabezado.png" alt="Encabezado Campus" height="120,8"
-       width="188"/>
+  <a href="../../index.html"><img id="fotoheader" src="../../imagenes generales/foto de encabezado.png"
+                               alt="Encabezado Campus" height="120,8" width="188"/></a>
   <h1> UNN </h1>
   <h4>Universidad Nacional de los Nicos</h4>
   <h2>CAMPUS VIRTUAL</h2>
@@ -61,8 +61,9 @@
   <canvas id="myCanvas"   width="500" height="400"></canvas>
 
   <div id="coordenadas">
-  <label for="x"> Coordenada X: </label> <input type="text" name="x"  id="x" >
-  <label for="y"> Coordenada Y: </label> <input type="text" name="y"  id="y" >
+  <label for="x"> P: </label> <input type="text" name="x"  id="x" placeholder="Pendiente en x (mx)">
+  <label for="y"> O.O: </label> <input type="text" name="y"  id="y" placeholder="Ordenada al Origen (x=0)">
+    <button type="button" onclick="funcanva()"> Calcular </button>
   </div>
 
 </section>

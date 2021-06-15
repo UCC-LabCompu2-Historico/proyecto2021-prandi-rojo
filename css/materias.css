@@ -35,9 +35,7 @@ h4 {
   margin-left: 65px;
 }
 
-#textosup {
-  margin-top: 40px;
-}
+
 
 #nombremateria{
   text-align: center;
@@ -116,7 +114,7 @@ figure{
 #coordenadas{
   float: right;
   position: absolute;
-  right: 170px;
+  right: 255px;
   bottom: 300px;
 
 }
