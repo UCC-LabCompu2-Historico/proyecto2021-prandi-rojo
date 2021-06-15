@@ -12,13 +12,15 @@ header {
   border-radius: 15px;
   box-shadow: 10px 12px #2a76b6;
 }
-#fotoheader{
+
+#fotoheader {
   margin-top: 15px;
-  margin-left: 0px;
+  margin-left: 0;
 }
+
 h1 {
   font-size: 90px;
-  font-style: oblique ;
+  font-style: oblique;
   font-family: "Monotype Corsiva";
   margin-top: -110px;
   margin-left: 150px;
@@ -45,23 +47,24 @@ h4 {
   margin-top: 40px;
 }
 
-div p{
-    font-family: "Copperplate Gothic Bold";
-    font-size: 20px;
-    font-style: italic;
-    padding-inline: 50px;
+div p {
+  font-family: "Copperplate Gothic Bold";
+  font-size: 20px;
+  font-style: italic;
+  padding-inline: 50px;
 }
 
 p {
-    font-style: italic;
-    font-size: 20px;
+  font-style: italic;
+  font-size: 20px;
   float: left;
 
 }
-body{
+
+body {
   background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
   overflow-y: hidden;
-  overflow-x: hidden ;
+  overflow-x: hidden;
 }
 
 table {
@@ -74,30 +77,31 @@ table {
   font-family: Customfont, Satisfy, cursive;
 }
 
-table thead{
+table thead {
   text-align: center;
 }
+
 table tbody {
   text-align: center;
   padding: 20px;
 }
 
-table, tr, td, th{
+table, tr, td, th {
   border: 1px solid #000000;
 }
 
-figure{
+figure {
   position: absolute;
   left: 900px;
 }
 
-#textimg{
+#textimg {
   font-family: "Monotype Corsiva";
   font-size: 30px;
   text-align: center;
 }
 
-aside{
+aside {
   float: right;
   margin-right: 10px;
   margin-top: 100px;
@@ -108,77 +112,83 @@ aside{
   width: 350px;
 }
 
-#Carreras{
+#Carreras {
   border-radius: 10px;
-  display:block;
+  display: block;
   padding: 5px 10px;
-  margin:10px auto;
+  margin: 10px auto;
   min-width: 225px;
   -webkit-appearance: none;
   height: 34px;
 }
 
-#Año{
+#Año {
   border-radius: 10px;
-  display:block;
+  display: block;
   padding: 5px 10px;
-  margin:10px auto;
+  margin: 10px auto;
   min-width: 225px;
   -webkit-appearance: none;
   height: 34px;
 }
-#nombre{
+
+#nombre {
   border-radius: 10px;
-  display:block;
+  display: block;
   padding: 5px 10px;
-  margin:10px auto;
+  margin: 10px auto;
   min-width: 100px;
   -webkit-appearance: none;
   height: 19px;
 }
-aside button{
+
+aside button {
   border-radius: 10px;
-  display:block;
+  display: block;
   padding: 5px 10px;
-  margin:30px auto;
+  margin: 30px auto;
   min-width: 75px;
   -webkit-appearance: none;
   height: 34px;
 }
 
-footer{
+footer {
   height: 100px;
   width: 100%;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   background-color: #2a76b6;
   border: solid #0f0f10;
   border-radius: 15px;
   box-shadow: 10px 12px #2a76b6;
 }
 
-footer h4{
+footer h4 {
   font-style: italic;
   position: absolute;
   left: -20px;
   bottom: 50px
 }
+
 footer .whatsapp {
   position: absolute;
-  bottom:  -5px;
+  bottom: -5px;
   left: 150px;
 
 }
-.whatsapp img{
+
+.whatsapp img {
   position: absolute;
   left: -10px;
 }
+
 footer .gmail {
   position: absolute;
-  bottom:  00px;
+  bottom: 00px;
   right: 200px;
 }
-.gmail img{
+
+.gmail img {
   position: absolute;
   right: 290px;
   bottom: 15px;
@@ -187,10 +197,11 @@ footer .gmail {
 
 footer .twitter {
   position: absolute;
-  bottom:  00px;
+  bottom: 00px;
   left: 800px;
 }
-.twitter img{
+
+.twitter img {
   position: absolute;
   right: 150px;
 

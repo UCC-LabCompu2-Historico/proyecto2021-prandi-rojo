@@ -58,7 +58,7 @@ function miFunc (){
  */
 
 function cargarnombre(){
-    var urlcomp,nombre;
+    let urlcomp,nombre;
     urlcomp=window.location.href.split("/")[5];
     nombre=urlcomp.split("#")[1];
 
@@ -73,16 +73,16 @@ function cargarnombre(){
  */
 
 function cargarcanvas(){
-    var canvas = document.getElementById("myCanvas");
-    var ctx = canvas.getContext("2d");
+    let canvas = document.getElementById("myCanvas");
+    let ctx = canvas.getContext("2d");
     let alto = canvas.height;
     let ancho = canvas.width;
 
-    var grid_size = 25;
-    var x_axis_size = ancho;
-    var y_axis_size = alto;
-    var x_cero = 250;
-    var y_cero = 200;
+    let grid_size = 25;
+    let x_axis_size = ancho;
+    let y_axis_size = alto;
+    let x_cero = 250;
+    let y_cero = 200;
 
     ctx.beginPath();
     // Cuadriculas X
@@ -106,7 +106,7 @@ function cargarcanvas(){
     ctx.beginPath();
     ctx.moveTo(x_cero-(x_axis_size/2),y_cero);
     ctx.lineTo(x_cero+(x_axis_size/2),y_cero);
-// Eje y del 0
+    // Eje y del 0
     ctx.moveTo(x_cero,y_cero-(y_axis_size/2));
     ctx.lineTo(x_cero,y_cero+(y_axis_size/2));
     ctx.strokeStyle = "#000";
@@ -145,42 +145,42 @@ function cargarcanvas(){
 
 function funcanva(){
 
-    var x= document.getElementById("x").value;
-    var y =document.getElementById("y").value;
+    let x= document.getElementById("x").value;
+    let y =document.getElementById("y").value;
 
     if (isNaN(x) || isNaN(y)){alert('Valor mal ingresado. Intentelo de nuevo')}
     else if (x=="" || y==""){alert('Campo no completado')}
 
-    var canva=document.getElementById("myCanvas");
-    var ctx= canva.getContext("2d");
-    var altmax= canva.height;
-    var anmax=canva.width;
+
+
+    let canva=document.getElementById("myCanvas");
+    let ctx= canva.getContext("2d");
+    let altmax= canva.height;
+
+//funcion de cambio de coordenada
+    let z1=(-8-y)/x;
+    let z2=(8-y)/x;
+
+    let zp=10+z1;
+    let zp2=10+z2;
+
+    let c=zp*25;
+    let c1=zp2*25;
+
 
     ctx.beginPath();
-    ctx.moveTo(0,250-(y*25));
-    ctx.lineTo(anmax,250+x*25);
+    ctx.moveTo(c,altmax);
+    ctx.lineTo(c1,0);
     ctx.strokeStyle = "#030303";
     ctx.stroke();
     ctx.closePath();
 }
 
-//ctx.moveTo(0,x*25*(-250)+200-25*y);
-//     ctx.lineTo(anmax,x*25*(anmax)+200-(25*y));
-//(y/x)*25,y*25
-//var x= document.getElementById("x").value;
-//     var y =document.getElementById("y").value;
-//
-//     if (isNaN(x) || isNaN(y)){alert('Valor mal ingresado. Intentelo de nuevo')}
-//     else if (x=="" || y==""){alert('Campo no completado')}
-//
-//     var canva=document.getElementById("myCanvas");
-//     var ctx= canva.getContext("2d");
-//     var altmax= canva.height;
-//     var anmax=canva.width;
-//
-//     ctx.beginPath();
-//     ctx.moveTo(0,250-(y*25));
-//     ctx.lineTo(anmax,250+x*25);
-//     ctx.strokeStyle = "#030303";
-//     ctx.stroke();
-//     ctx.closePath();
+function funlimpiar() {
+    let canvas = document.getElementById("myCanvas");
+    let ctx = canvas.getContext("2d");
+// Borramos el área que nos interese
+    ctx.clearRect(0, 0, 500, 400);
+
+    cargarcanvas();
+}

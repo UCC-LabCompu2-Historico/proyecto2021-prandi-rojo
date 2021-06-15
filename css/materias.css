@@ -1,180 +1,188 @@
 header {
-  height: 150px;
-  width: 100%;
-  background-color: #2a76b6;
-  border: solid #0f0f10;
-  border-radius: 15px;
-  box-shadow: 10px 12px #2a76b6;
+    height: 150px;
+    width: 100%;
+    background-color: #2a76b6;
+    border: solid #0f0f10;
+    border-radius: 15px;
+    box-shadow: 10px 12px #2a76b6;
 }
-#fotoheader{
-  margin-top: 15px;
-  margin-left: 0px;
+
+#fotoheader {
+    margin-top: 15px;
+    margin-left: 0;
 }
+
 h1 {
-  font-size: 90px;
-  font-style: oblique ;
-  font-family: "Monotype Corsiva";
-  margin-top: -110px;
-  margin-left: 150px;
+    font-size: 90px;
+    font-style: oblique;
+    font-family: "Monotype Corsiva";
+    margin-top: -110px;
+    margin-left: 150px;
 }
 
 h2 {
-  font-size: 30px;
-  font-style: oblique;
-  font-family: "Arial Narrow";
-  float: right;
-  margin-top: -90px;
-  margin-left: 10px;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: "Arial Narrow";
+    float: right;
+    margin-top: -90px;
+    margin-left: 10px;
 }
 
 h4 {
-  font-size: 19px;
-  font-style: inherit;
-  float: left;
-  margin-top: -65px;
-  margin-left: 65px;
+    font-size: 19px;
+    font-style: inherit;
+    float: left;
+    margin-top: -65px;
+    margin-left: 65px;
 }
 
 
-
-#nombremateria{
-  text-align: center;
-  position: relative;
-  bottom: 70px;
-  font-family: "Bodoni MT";
-  font-style: oblique;
+#nombremateria {
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    font-family: "Bodoni MT";
+    font-style: oblique;
 }
 
-body{
-  background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
-  overflow-y: hidden;
-  overflow-x: hidden ;
+body {
+    background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-figure{
-  float: right;
-  position: absolute;
-  bottom: 100px;
-  right: 0px;
+figure {
+    float: right;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
 }
 
-.foto{
-  float: right;
-
-}
-
-.objetivos{
-  float: left;
-  position: relative;
-  top: 80px;
-  font-style: oblique;
-}
-
-.obj{
-  position: absolute;
-  text-align: left;
-  top: 230px;
-  width: 70%;
-  left: 45px;
-}
-
-.evaluacion{
-  margin-top: 190px;
-  font-style: oblique;
-}
-.eval{
-  margin-top: 240px ;
-  margin-left: 40px;
-  width: 60%;
-}
-
-.teorico{
-  float: left;
-  margin-top: 80px;
-  font-style: oblique;
-}
-.teor{
-  position: relative;
-  bottom: -130px;
-  width: 70%;
-}
-
-
-#promocion{
-  position: relative;
-  top:60px;
-}
-#prom{
-  position: relative;
-  top: 30px;
-  margin-left: 25px;
-}
-
-
-#coordenadas{
-  float: right;
-  position: absolute;
-  right: 255px;
-  bottom: 300px;
+.foto {
+    float: right;
 
 }
 
-#myCanvas{
-  float: right;
-  position: absolute;
-  right: 220px;
-  top: 200px;
-  border: solid #0f0f10;
-  background-color: white;
+.objetivos {
+    float: left;
+    position: relative;
+    top: 80px;
+    font-style: oblique;
 }
 
-footer{
-  height: 100px;
-  width: 1900px;
-  position: absolute;
-  bottom: 0px;
-  background-color: #2a76b6;
-  border: solid #0f0f10;
-  border-radius: 15px;
-  box-shadow: 10px 12px #2a76b6;
+.obj {
+    position: absolute;
+    text-align: left;
+    top: 230px;
+    width: 70%;
+    left: 45px;
 }
 
-footer h4{
-  font-style: italic;
-  position: absolute;
-  left: -20px;
-  bottom: 50px
+.evaluacion {
+    margin-top: 190px;
+    font-style: oblique;
 }
+
+.eval {
+    margin-top: 240px;
+    margin-left: 40px;
+    width: 60%;
+}
+
+.teorico {
+    float: left;
+    margin-top: 80px;
+    font-style: oblique;
+}
+
+.teor {
+    position: relative;
+    bottom: -130px;
+    width: 70%;
+}
+
+
+#promocion {
+    position: relative;
+    top: 60px;
+}
+
+#prom {
+    position: relative;
+    top: 30px;
+    margin-left: 25px;
+}
+
+
+#coordenadas {
+    float: right;
+    position: absolute;
+    right: 255px;
+    bottom: 300px;
+
+}
+
+#myCanvas {
+    float: right;
+    position: absolute;
+    right: 220px;
+    top: 200px;
+    border: solid #0f0f10;
+    background-color: white;
+}
+
+footer {
+    height: 100px;
+    width: 1900px;
+    position: absolute;
+    bottom: 0;
+    background-color: #2a76b6;
+    border: solid #0f0f10;
+    border-radius: 15px;
+    box-shadow: 10px 12px #2a76b6;
+}
+
+footer h4 {
+    font-style: italic;
+    position: absolute;
+    left: -20px;
+    bottom: 50px
+}
+
 footer .whatsapp {
-  position: absolute;
-  bottom:  00px;
-  left: 150px;
+    position: absolute;
+    bottom: 00px;
+    left: 150px;
 }
-.whatsapp img{
-  position: relative;
-  bottom: -60px;
-  left: -70px;
+
+.whatsapp img {
+    position: relative;
+    bottom: -60px;
+    left: -70px;
 }
+
 footer .gmail {
-  position: absolute;
-  bottom:  0px;
-  right: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
 }
-.gmail img{
-  position: relative;
-  bottom: -60px;
-  right: 70px;
+
+.gmail img {
+    position: relative;
+    bottom: -60px;
+    right: 70px;
 }
 
 
 footer .twitter {
-  position: absolute;
-  bottom:  0px;
-  left: 800px;
+    position: absolute;
+    bottom: 0;
+    left: 800px;
 }
 
 .twitter img {
-  position: relative;
-  bottom: -60px;
-  right: 55px
+    position: relative;
+    bottom: -60px;
+    right: 55px
 }

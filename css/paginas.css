@@ -1,159 +1,165 @@
 @font-face {
-  font-family: "Customfont";
-  src: url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-  src: url("https://fonts.googleapis.com/css2?family=Rock+Salt&family=Satisfy&display=swap");
+    font-family: "Customfont";
+    src: url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+    src: url("https://fonts.googleapis.com/css2?family=Rock+Salt&family=Satisfy&display=swap");
 }
-
 
 
 header {
-  height: 150px;
-  width: 100%;
-  background-color: #2a76b6;
-  border: solid #0f0f10;
-  border-radius: 15px;
-  box-shadow: 10px 12px #2a76b6;
+    height: 150px;
+    width: 100%;
+    background-color: #2a76b6;
+    border: solid #0f0f10;
+    border-radius: 15px;
+    box-shadow: 10px 12px #2a76b6;
 }
-#fotoheader{
-  margin-top: 15px;
-  margin-left: 0px;
+
+#fotoheader {
+    margin-top: 15px;
+    margin-left: 0;
 }
+
 h1 {
-  font-size: 90px;
-  font-style: oblique ;
-  font-family: "Monotype Corsiva";
-  margin-top: -110px;
-  margin-left: 150px;
+    font-size: 90px;
+    font-style: oblique;
+    font-family: "Monotype Corsiva";
+    margin-top: -110px;
+    margin-left: 150px;
 }
 
 h2 {
-  font-size: 30px;
-  font-style: oblique;
-  font-family: "Arial Narrow";
-  float: right;
-  margin-top: -90px;
-  margin-left: 10px;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: "Arial Narrow";
+    float: right;
+    margin-top: -90px;
+    margin-left: 10px;
 }
 
 h4 {
-  font-size: 19px;
-  font-style: inherit;
-  float: left;
-  margin-top: -65px;
-  margin-left: 65px;
+    font-size: 19px;
+    font-style: inherit;
+    float: left;
+    margin-top: -65px;
+    margin-left: 65px;
 }
 
 
-
-body{
-  background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
-  overflow-y: hidden;
-  overflow-x: hidden ;
+body {
+    background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-aside{
-  float: right;
-  position: relative;
-  bottom: 450px;
-  right: 150px;
-  text-align: center;
+aside {
+    float: right;
+    position: relative;
+    bottom: 450px;
+    right: 150px;
+    text-align: center;
 }
 
-#texto{
-  position: relative;
-  float: right;
-  font-family: "Book Antiqua";
+#texto {
+    position: relative;
+    float: right;
+    font-family: "Book Antiqua";
 }
 
-#I{
-  position: relative;
-  bottom: 20px;
-  font-family: "Monotype Corsiva";
-  font-size: 40px;
-}
-
-
- .anuales{
-   left: 60px;
-
+#I {
+    position: relative;
+    bottom: 20px;
+    font-family: "Monotype Corsiva";
+    font-size: 40px;
 }
 
 
- .semestre1{
-   left: 60px;
+.anuales {
+    left: 60px;
 
 }
 
 
- .semestre2{
-   left: 60px;
-   bottom: 200px;
+.semestre1 {
+    left: 60px;
+
 }
-figure{
-  float: right;
-  position: absolute;
-  bottom: 100px;
-  right: 0px;
+
+
+.semestre2 {
+    left: 60px;
+    bottom: 200px;
+}
+
+figure {
+    float: right;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
 }
 
 #fotocenter {
-  position: absolute;
-  right: 400px;
+    position: absolute;
+    right: 400px;
 
 }
-#textimg{
-  text-align: center;
-  font-family: "Monotype Corsiva";
-  font-size: 30px;
+
+#textimg {
+    text-align: center;
+    font-family: "Monotype Corsiva";
+    font-size: 30px;
 }
 
-footer{
-  height: 100px;
-  width: 1900px;
-  position: absolute;
-  bottom: 0px;
-  background-color: #2a76b6;
-  border: solid #0f0f10;
-  border-radius: 15px;
-  box-shadow: 10px 12px #2a76b6;
+footer {
+    height: 100px;
+    width: 1900px;
+    position: absolute;
+    bottom: 0;
+    background-color: #2a76b6;
+    border: solid #0f0f10;
+    border-radius: 15px;
+    box-shadow: 10px 12px #2a76b6;
 }
 
-footer h4{
-  font-style: italic;
-  position: absolute;
-  left: -20px;
-  bottom: 50px
+footer h4 {
+    font-style: italic;
+    position: absolute;
+    left: -20px;
+    bottom: 50px
 }
+
 footer .whatsapp {
-  position: absolute;
-  bottom:  00px;
-  left: 150px;
+    position: absolute;
+    bottom: 00px;
+    left: 150px;
 }
-.whatsapp img{
-  position: relative;
-  bottom: -60px;
-  left: -70px;
+
+.whatsapp img {
+    position: relative;
+    bottom: -60px;
+    left: -70px;
 }
+
 footer .gmail {
-  position: absolute;
-  bottom:  0px;
-  right: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
 }
-.gmail img{
-  position: relative;
-  bottom: -60px;
-  right: 70px;
+
+.gmail img {
+    position: relative;
+    bottom: -60px;
+    right: 70px;
 }
 
 
 footer .twitter {
-  position: absolute;
-  bottom:  0px;
-  left: 800px;
+    position: absolute;
+    bottom: 0;
+    left: 800px;
 }
 
 .twitter img {
-  position: relative;
-  bottom: -60px;
-  right: 55px
+    position: relative;
+    bottom: -60px;
+    right: 55px
 }
