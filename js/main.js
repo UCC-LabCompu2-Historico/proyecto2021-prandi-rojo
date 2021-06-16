@@ -155,6 +155,7 @@ function funcanva(){
 
     if (isNaN(x) || isNaN(y)){alert('Valor mal ingresado. Intentelo de nuevo')}
     else if (x=="" || y==""){alert('Campo no completado')}
+    else {
 
 
 
@@ -178,10 +179,10 @@ function funcanva(){
     ctx.lineTo(c1,0);
     ctx.strokeStyle = "#030303";
     ctx.stroke();
-    ctx.closePath();
+    ctx.closePath();}
 }
 /**
- * Se encarga de limpiar la grafica ingresada por el usuario.
+ * Se encarga de limpiar la grafica ingresada por el usuario, al igual que los valores de los input.
  * @method funlimpiar.
  * No recibe parametros.
  * No retorna valores.
@@ -193,5 +194,7 @@ function funlimpiar() {
 // Borramos el área que nos interese
     ctx.clearRect(0, 0, 500, 400);
 
+    document.getElementById("x").value="";
+    document.getElementById("y").value="";
     cargarcanvas();
 }
