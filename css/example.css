@@ -63,7 +63,7 @@ p {
 
 body {
   background: linear-gradient(to right, #a6c2e8, #b2cdf8, #8fb2f3, #2a76b6);
-  overflow-y: hidden;
+
   overflow-x: hidden;
 }
 
@@ -151,6 +151,46 @@ aside button {
   -webkit-appearance: none;
   height: 34px;
 }
+.slider{
+  width: 15%;
+  position: absolute;
+  bottom: 10%;
+  margin-left: 5%;
+  overflow: hidden;
+}
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 300%;
+  animation: cambio 10s infinite;
+  animation-direction: alternate;
+}
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+.slider img{
+  width: 100%;
+}
+
+@keyframes cambio {
+  0%{margin-left: 0;}
+  30%{margin-left: 0;}
+
+  35%{margin-left: -100%}
+  65%{margin-left: -100%}
+
+  70%{margin-left: -200%}
+  100%{margin-left: -200%}
+
+
+}
+
+
+
+
+
+
 
 footer {
   height: 100px;
