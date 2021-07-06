@@ -198,3 +198,34 @@ function funlimpiar() {
     document.getElementById("y").value="";
     cargarcanvas();
 }
+
+
+/**
+ * Se encarga de realizar una animacion con la foto del index
+ * @method animarfoto.
+ * No recibe paramtros.
+ * No retorna valores.
+ */
+
+y=0;
+dy=2;
+function animarfoto() {
+    let canvas=document.getElementById("canvfoto");
+    let ctx= canvas.getContext("2d");
+
+    canvas.width=canvas.width;
+    canvas.height=canvas.height;
+    let img= new Image ();
+    img.src = "foto inicio.png";
+
+    img.onload=function () {
+        ctx.drawImage(img, 10, y);
+    }
+    if (y>=canvas.height-492){
+        dy=dy*(-1);
+    }
+    if(y<=-1){
+        dy=dy*(-1);
+    }
+    y+=dy;
+}

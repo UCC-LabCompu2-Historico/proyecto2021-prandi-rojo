@@ -14,9 +14,9 @@
   <link rel="shortcut icon" href="imagenes generales/logo.png">
 </head>
 
-<body>
+<body onload="setInterval(animarfoto,100)">
 <header>
-  <img id="fotoheader" src="imagenes generales/foto de encabezado.png" alt="encabezado campus" height="120"
+  <img id="fotoheader" src="imagenes%20generales/foto%20de%20encabezado.png" alt="encabezado campus" height="120"
        width="188"/>
   <h1> UNN </h1>
   <h4>Universidad Nacional de los Nicos</h4>
@@ -70,13 +70,14 @@
     </ul>
   </div>
 
-  <figure>
+  <!--<figure>
     <img src="imagenes generales/foto inicio.png" alt="Hombre recibido" height="512" width="512"/>
-    <h3 id="textimg"> "La excelencia como hábito"</h3>
-  </figure>
 
+  </figure>-->
 
+<canvas  id="canvfoto" width="512" height="512"></canvas>
 
+  <h3 id="textimg"> "La excelencia como hábito"</h3>
 </section>
 
 
